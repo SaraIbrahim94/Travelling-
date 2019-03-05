@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  text-align: center;
+background: Linen;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-family:  cursive;
+}
+
+form{
+  margin-top: 10%;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 0px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("imgs/Flight.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AdvTxt{
+text-align: center;
+color: red;
+font-style: oblique;
+font-size: 25px;
+
+}
+.img2{
+  position: relative;
+  padding-top: 50px;
+border-radius: 90%;
+margin-right: 140px;
+max-width: 400px;
+max-height: 500px;
+
+
+}
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.middle-container {
+
+}
+
+
+
+.book {
+  font-weight: bold;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.Top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
